@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>autofill</title>
+</head>
+
+
+<body>
+<form name="cal" action="">
+    <table>
+      <caption>
+        <h1>
+          Kalkulator
+        </h1>
+        <h3>
+          Paket Wisata Imam Tour
+        </h3>
+      </caption>
+      <tr>
+        <td>Nama Paket Tour</td>
+        <td>:</td>
+        <td>
+          <select name="" id="paket" onchange="myFunction(event)">
+            <option selected disabled>...</option>
+            <option value="Bali">Paket Tour Bali</option>
+            <option value="Korea">Paket Tour Korea</option>
+            <option value="Eropa">Paket Tour Eropa</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Harga Paket</td>
+        <td>:</td>
+        <td>Rp.<input id="harga" name="harga" type="number" value="0"></td>
+      </tr>
+      <tr>
+        <td>Diskon</td>
+        <td>:</td>
+        <td><input id="diskon" name="diskon" type="number">%</td>
+      </tr>
+      <tr>
+        <td>Total Bayar</td>
+        <td>:</td>
+        <td><input id="tot" name="tot" type="text"></td>
+      </tr>
+  
+    </table>
+  </form>
+
+  <script>
+     
+        // Get references to DOM elements
+        var paketSelect = document.getElementById("paket");
+        var hargaInput = document.getElementById("harga");
+        var diskonInput = document.getElementById("diskon");
+        var totInput = document.getElementById("tot");
+
+        // Function to handle changes in the select element
+        function handlePaketChange() {
+            var selectedPaket = paketSelect.value;
+
+            if (selectedPaket === "Bali") {
+                hargaInput.value = 7000;
+                diskonInput.value = 5;
+                totInput.value = 6650;
+            } else if (selectedPaket === "Korea") {
+                hargaInput.value = 8000;
+                diskonInput.value = 5;
+                totInput.value = 7600;
+            } else if (selectedPaket === "Eropa") {
+                hargaInput.value = 9000;
+                diskonInput.value = 5;
+                totInput.value = 8550;
+            }
+        }
+
+        // Add event listener to the select element
+        paketSelect.addEventListener("change", handlePaketChange);
+    </script>
+
+
+  </script>
+</body>
+  </html>

@@ -1,0 +1,584 @@
+2024-03-27 10:27:44,876 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:28:31,437 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:28:50,985 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:29:03,037 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:30:14,600 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:31:23,852 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:31:54,661 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:34:02,330 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:35:53,388 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:36:07,456 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:36:15,303 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:36:17,921 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:36:26,657 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:38:23,430 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:40:04,116 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:40:19,262 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:40:25,369 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:41:00,409 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:41:06,142 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:41:13,014 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:41:41,291 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 10:41:41,300 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 10:44:14,765 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:44:28,761 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:45:05,289 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 10:45:05,331 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 10:45:38,598 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:46:44,643 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 10:46:44,643 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 10:46:55,201 Request[update_student]: Rupesh
+2024-03-27 10:46:55,291 Response[update_student]: {'status': True, 'message': 'student updated successfully'}
+2024-03-27 10:48:53,682 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:48:56,260 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:49:03,251 Request[delete_student]: student_detail = Rupesh
+2024-03-27 10:49:03,351 Response[delete_student]: {'status': True, 'message': 'student deleted successfully'}
+2024-03-27 10:52:13,632 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:52:57,927 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:53:01,511 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 10:53:06,644 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 11:01:17,932 Response[add_student]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 11:01:34,232 Response[add_student]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 11:16:30,584 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 11:17:31,708 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 11:17:40,521 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 11:17:50,491 Response[add_data_template]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 11:18:03,812 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 11:18:03,823 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 11:18:29,202 Request[add_data_template]: name=amit , age=27, email =amit@gmail.com, gender=m, status = Active, login_username = dwija
+2024-03-27 11:18:29,393 Response[add_data_template]: {'status': True, 'message': 'student added successfully'}
+2024-03-27 11:18:41,335 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 11:19:32,799 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 11:25:09,231 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 11:25:09,237 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 11:53:44,005 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 11:53:53,393 Request[login]: username = nitin , password = NitinG3654
+2024-03-27 11:53:53,393 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 11:54:05,826 Request[update_student]: Amit
+2024-03-27 11:54:05,954 Response[update_student]: {'status': True, 'message': 'student updated successfully'}
+2024-03-27 12:18:45,793 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 12:19:37,417 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 12:19:37,417 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 12:21:20,698 Request[add_data_template]: name=mahi , age=16, email =mahi@gmail.com, gender=f, status = Inactive, login_username = dhaval
+2024-03-27 12:21:20,824 Response[add_data_template]: {'status': True, 'message': 'student added successfully'}
+2024-03-27 12:25:17,323 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:25:22,316 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:30:15,127 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:35:50,750 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 12:35:59,771 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 12:35:59,771 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 12:36:48,631 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 12:36:48,631 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 12:37:12,517 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:37:23,358 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 12:37:23,363 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 12:38:18,364 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:38:34,771 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:42:38,963 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:44:03,899 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:46:52,125 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 12:46:52,133 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 12:49:50,840 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:50:04,612 Request[login]: username = nitin , password = NitinG3654
+2024-03-27 12:50:04,617 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 12:50:33,826 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:50:47,270 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 12:50:57,032 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 12:50:57,043 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:32:26,201 Request[login]: username = dwija , password = Dwija3654
+2024-03-27 14:32:26,204 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-27 14:32:37,294 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 14:32:37,294 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:33:04,961 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 14:33:16,468 Request[login]: username = nitin , password = NitinG3654
+2024-03-27 14:33:16,468 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:33:37,699 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 14:33:54,637 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 14:33:54,637 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:36:58,066 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 14:36:58,066 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:38:03,754 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 14:38:18,354 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 14:38:18,363 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:39:32,061 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 14:40:22,073 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 14:51:19,537 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 14:51:19,537 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:54:09,472 Response[add_data_template]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 14:54:18,942 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 14:54:18,942 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 14:56:39,469 Request[login]: username = dhaval , password = Dhava
+2024-03-27 14:56:39,480 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-27 14:56:47,177 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 14:56:47,180 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 15:01:26,390 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-27 15:04:41,072 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 15:04:41,072 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 15:10:52,094 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py", line 34, in home
+    return render(request,'index2.html',context={"std":std2})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index2.html
+2024-03-27 15:10:52,376 Not Found: /favicon.ico
+2024-03-27 15:11:16,732 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:15:52,344 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py", line 34, in home
+    return render(request,'base.html',context={"std":std2})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 515, in parse
+    self.unclosed_block_tag(parse_until)
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 578, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 238: 'block'. Looking for one of: endblock.
+2024-03-27 15:32:20,865 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:32:23,582 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:40:29,986 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:40:49,323 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:45:29,208 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\models.py changed, reloading.
+2024-03-27 15:53:18,348 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:53:27,163 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:53:57,999 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 15:54:41,849 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 15:54:51,082 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 15:54:51,084 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 15:56:11,448 Request[add_data_template]: name=sharda , age=50, email =sharda@gmail.com, gender=f, status = Active, login_username = dwija
+2024-03-27 15:56:11,615 Response[add_data_template]: {'status': True, 'message': 'student added successfully'}
+2024-03-27 15:57:42,963 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 15:57:42,963 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 16:20:05,983 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 16:20:14,382 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 16:20:14,382 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 16:23:04,433 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 16:23:48,103 Response[add_data_template]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 16:24:06,374 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 16:24:06,376 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 16:24:16,479 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 16:24:21,208 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 16:24:21,208 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 16:24:31,600 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 16:25:12,887 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 16:25:26,226 Response[add_data_template]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 16:25:35,641 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 16:25:35,643 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 16:25:42,437 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 16:25:43,613 Response[add_data_template]: {'status': False, 'message': 'User not have session key'}
+NoneType: None
+2024-03-27 16:25:51,197 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-27 17:00:59,810 Request[login]: username = dhaval , password = Dhavaj
+2024-03-27 17:00:59,826 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-27 17:02:50,297 Request[login]: username = nitin , password = NitinG3654
+2024-03-27 17:02:50,297 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 17:03:01,912 Request[update_student]: Sharda
+2024-03-27 17:03:01,987 Response[update_student]: {'status': True, 'message': 'student updated successfully'}
+2024-03-27 17:35:49,359 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 17:49:19,749 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-27 17:49:19,752 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 17:54:00,336 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-27 17:54:40,769 Request[login]: username = dhaval , password = dhavalG3654
+2024-03-27 17:54:40,769 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-27 17:54:51,699 Request[login]: username = dwija , password = DwijaG3654
+2024-03-27 17:54:51,701 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-27 17:55:55,800 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-03-28 10:22:13,461 Request[login]: username = nitin , password = nitinG3654
+2024-03-28 10:22:13,514 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-28 10:22:26,217 Request[login]: username = nitinsd , password = nitinG3654
+2024-03-28 10:22:26,648 Internal Server Error: /login
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py", line 118, in login
+    obj = LoginUser.objects.get(username=uname)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+Templateapp.models.LoginUser.DoesNotExist: LoginUser matching query does not exist.
+2024-03-28 10:22:26,874 Not Found: /favicon.ico
+2024-03-28 10:22:38,421 Request[login]: username = nitin , password = nitinG3654
+2024-03-28 10:22:38,516 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-28 10:22:51,644 Request[login]: username = nitin , password = NitinG3654
+2024-03-28 10:22:51,712 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 10:57:11,866 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 10:58:40,949 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 10:58:40,957 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 11:04:06,200 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 11:04:06,224 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 11:12:22,316 Request[login]: username = dhaval , password = DhavalG354
+2024-03-28 11:12:22,338 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-28 11:12:32,034 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 11:12:32,050 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 11:18:01,463 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 11:18:10,995 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 11:18:11,029 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 11:20:41,586 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 11:20:41,586 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 11:24:48,162 Not Found: /favicon.ico
+2024-03-28 11:48:48,789 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 11:48:54,969 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 11:49:02,692 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 11:49:12,102 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 11:49:12,137 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 12:28:23,187 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 12:28:23,187 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 12:33:30,356 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 12:33:30,362 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 13:03:11,620 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 13:03:11,635 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 13:07:33,488 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 13:08:14,155 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 13:08:42,467 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 13:09:58,469 Not Found: /favicon.ico
+2024-03-28 13:19:09,369 Not Found: /admin/admin_interface/themes
+2024-03-28 13:23:24,502 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 13:23:56,781 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 13:23:56,796 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 14:38:41,764 Request[login]: username = dwija , password = Dwija@3654
+2024-03-28 14:38:41,764 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-28 14:39:00,533 Request[login]: username = dwija , password = DwijaG3654
+2024-03-28 14:39:00,548 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 14:58:39,955 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 14:59:02,337 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 14:59:04,985 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 14:59:43,323 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 15:00:05,102 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 15:00:05,102 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 15:01:39,741 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 15:04:43,424 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\views.py changed, reloading.
+2024-03-28 15:15:50,076 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 15:20:28,377 Request[login]: username = dwija , password = DwijaG3654
+2024-03-28 15:20:28,385 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 15:23:43,328 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-03-28 15:32:16,106 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 15:32:16,106 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 15:45:32,808 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 15:53:52,171 Request[login]: username = dhaval , password = Dhavalg3654
+2024-03-28 15:53:52,187 Response[login]: {'status': False, 'message': 'student entered wrong password'}
+2024-03-28 15:54:08,947 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 15:54:17,664 Request[login]: username = dhaval , password = DhavalG3654
+2024-03-28 15:54:17,684 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-03-28 16:06:57,934 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 16:07:16,793 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 16:51:47,701 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 17:04:04,659 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 17:36:45,298 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:12:47,958 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:14:23,638 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:21:21,369 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:21:37,306 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:30:48,195 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:36:33,092 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-03-28 18:37:55,794 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-04-01 10:20:37,993 Request[login]: username = dwija , password = DwijaG3654
+2024-04-01 10:20:38,071 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-04-01 10:20:52,481 Not Found: /favicon.ico
+2024-04-01 10:21:45,495 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: '"'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\template\base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 5: '"', expected 'endblock'. Did you forget to register or load this tag?
+2024-04-01 11:10:35,905 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-04-01 11:55:17,052 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 12:02:43,593 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 12:22:21,346 Internal Server Error: /admin/Templateapp/student/
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py", line 34, in changelist_view
+    Student.objects.annotate(date=TruncDay("created_by"))
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 1630, in annotate
+    return self._annotate(args, kwargs, select=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 1680, in _annotate
+    clone.query.add_annotation(
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\sql\query.py", line 1198, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\functions\datetime.py", line 293, in resolve_expression
+    raise TypeError(
+TypeError: 'created_by' isn't a DateField, TimeField, or DateTimeField.
+2024-04-01 12:23:24,509 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 12:23:33,233 Internal Server Error: /admin/Templateapp/student/
+Traceback (most recent call last):
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\contrib\admin\options.py", line 716, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\contrib\admin\sites.py", line 240, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py", line 40, in changelist_view
+    as_json = json.dumps(list(chart_data), cls=DjangoJSONEncoder)
+                         ^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 210, in __iter__
+    for row in compiler.results_iter(
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1500, in apply_converters
+    value = converter(value, expression, connection)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\functions\datetime.py", line 353, in convert_value
+    raise ValueError(
+ValueError: Database returned an invalid datetime value. Are time zone definitions for your database installed?
+2024-04-01 12:40:12,847 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 12:41:02,565 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 12:46:01,006 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 12:46:22,436 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 13:14:19,845 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 13:15:35,801 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 14:37:49,108 Not Found: /favicon.ico
+2024-04-01 14:38:16,761 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 14:44:47,969 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.
+2024-04-01 14:48:12,136 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 14:51:21,452 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 15:11:13,779 Not Found: /favicon.ico
+2024-04-01 15:24:57,937 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 15:39:44,309 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 15:48:20,958 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 15:49:17,998 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 15:51:35,885 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:06:48,567 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:07:39,165 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:08:01,616 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:08:53,186 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:09:05,259 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:15:59,922 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:16:02,747 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:17:37,956 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:23:14,140 Not Found: /favicon.ico
+2024-04-01 16:29:14,020 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:33:59,061 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:34:01,719 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:34:19,013 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-01 16:46:11,295 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-02 10:11:34,085 Not Found: /favicon.ico
+2024-04-02 10:14:37,872 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-02 10:16:05,453 D:\profile( data do not delete)\dhaval\day 17 django template prebuilt\Templateapp\admin.py changed, reloading.
+2024-04-03 12:00:02,064 Not Found: /favicon.ico
+2024-04-11 23:20:27,769 Request[login]: username = dhaval , password = DhavalG3654
+2024-04-11 23:20:27,909 Internal Server Error: /login
+Traceback (most recent call last):
+  File "D:\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dhaval\day 17 django template prebuilt\Templateapp\views.py", line 118, in login
+    obj = LoginUser.objects.get(username=uname)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dhaval\day 17 django template prebuilt\venv\Lib\site-packages\django\db\models\query.py", line 649, in get
+    raise self.model.DoesNotExist(
+Templateapp.models.LoginUser.DoesNotExist: LoginUser matching query does not exist.
+2024-04-11 23:20:28,079 Not Found: /favicon.ico
+2024-04-11 23:27:02,491 Request[login]: username = dhaval , password = DhavalG3654
+2024-04-11 23:27:02,497 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-04-11 23:28:04,551 Request[add_data_template]: name=parth , age=24, email =parth@gmail.com, gender=m, status = Inactive, login_username = dhaval
+2024-04-11 23:28:04,561 Response[add_data_template]: {'status': True, 'message': 'student added successfully'}
+2024-04-11 23:28:19,846 Request[update_student]: Parth
+2024-04-11 23:28:19,859 Response[update_student]: {'status': True, 'message': 'student updated successfully'}
+2024-04-11 23:32:34,181 Response[logout]: {'status': True, 'message': 'student logged out successfully'}
+2024-04-11 23:32:50,849 Request[login]: username = dwija , password = DwijaG3654
+2024-04-11 23:32:50,852 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-04-11 23:33:06,813 Request[update_student]: piyush
+2024-04-11 23:33:06,819 Response[update_student]: {'status': True, 'message': 'student updated successfully'}
+2024-05-03 19:39:57,803 Request[login]: username = dhaval , password = DhavalG3654
+2024-05-03 19:39:57,826 Response[login]: {'status': True, 'message': 'student logged in  successfully'}
+2024-05-03 19:40:05,749 Not Found: /favicon.ico
+2024-05-03 19:43:01,908 D:\dhaval\day 17 django template prebuilt\Tutorial\settings.py changed, reloading.

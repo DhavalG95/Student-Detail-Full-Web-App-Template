@@ -1,0 +1,269 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+
+<div class="col-md-5 align-self-center">
+    <h4 class="text-themecolor">Student Detail</h4>
+</div>
+{% endblock title %}
+
+{% block button %}
+<div class="col-md-7 align-self-center text-right">
+    <div class="d-flex justify-content-end align-items-center">
+        
+        <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#addModal"
+            class="btn btn-info d-none d-lg-block m-l-15"> Add
+            New</button> -->
+        <a role="button" href="/add_data_template" class="btn btn-info d-none d-lg-block m-l-15">Add New</a>
+    </div>
+</div>
+
+{% endblock button %}
+
+
+
+{% block content %}
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="container6" >
+                    <div class="student_list">
+                
+                <h4 class="card-title">Student List</h4>
+            </div>
+                <div class="search_container">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="input-group">
+                    <input type="text" class="form-control" name="search" value="{{ srch }}" placeholder="Search">
+                    <button type="submit" class="btn btn-info">Search</button>
+                    </div>
+                </form>
+            </div>
+                </div>
+                <h6 class="card-subtitle"></h6>
+                <div class="table-responsive">
+                    <table id="demo-foo-addrow" class="table m-t-30 table-hover contact-list"
+                        data-page-size="5">
+                        <thead>
+                            <tr>
+                                <th >Sr.No</th>
+                                <th >Name</th>
+                                <th>Age</th>
+                                <th>Email</th>
+                                <th>Gender</th>
+                                <th>Created By</th>
+                                <th>Created At</th>
+                                <th>Updated By</th>
+                                <th>Updated At</th>
+                                <th>Status</th>
+                                <th>Edit</th>
+                                <th>Delete</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for std in std %}
+                            <tr>
+                                <td>{{forloop.counter}}</td>
+                                <td>
+                                    <a href="javascript:void(0)">{{std.name}}</a>
+                                </td>
+                                <td>{{std.age}}</td>
+                                <td>{{std.email}}</td>
+                                <td>{{std.gender}}</td>
+                                <!-- <td>{{std.created_by}}</td> -->
+                                <td> {% if std.created_by is None %} - {% else %} {{ std.created_by }} {% endif %} </td>
+                                <!-- <td>{{std.created_at | date:"d-m-Y H:i"}}</td> -->
+                                <td> {% if std.created_at is None %} - {% else %} {{std.created_at | date:"d-m-Y H:i"}} {% endif %} </td>
+                                <!-- <td>{{std.updated_by}}</td> -->
+                                <td> {% if std.updated_by is None %} - {% else %} {{ std.updated_by }} {% endif %} </td>
+                                <!-- <td>{{std.updated_at | date:"d-m-Y H:i"}}</td> -->
+                                <td> {% if std.updated_at is None %} - {% else %} {{std.updated_at | date:"d-m-Y H:i"}} {% endif %} </td>
+                                <td>{% if std.status == "Active" %} <span
+                                        class="label label-success">{{std.status}}</span> {% else %}
+                                    <span class="label label-warning">{{std.status}}</span> {% endif %}
+                                </td>
+                                <td><button class="btn btn-info" data-bs-toggle="modal"
+                                        data-bs-target="#editModal{{std.id}}">Edit</button> </td>
+                                <td ><a href="/delete/{{std.id}}"><i
+                                            class="fa-solid fa fa-trash-o"></i></a> </td>
+
+
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="9">
+                                    <div class="text-right">
+                                        <ul class="pagination"> </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+{% block modal %}
+
+<!-- add modal -->
+    <!-- ============================================================== -->
+    <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="addModalLabel">Add Student Detail</h1>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">x</button></div>
+                <div>
+                    <form method="post" action="/add_student">
+                        {% csrf_token %}
+                        <div class="modal-body">
+
+                            <div class="mb-3">
+                                <label for="name1" class="form-label">Name</label>
+                                <input type="text" class="form-control point" id="name1" name="name" required>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="age1" class="form-label">Age</label>
+                                <input type="number" class="form-control point" id="age1" name="age" required>
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="email1" class="form-label">Email</label>
+                                <input type="email" class="form-control point" id="email1" name="email" required>
+
+                            </div>
+                            
+
+                            <div class="form-group mb-3">
+                                <label  class="control-label">Gender</label><br>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="gender1" name="gender" class="custom-control-input" value="m">
+                                    <label class="custom-control-label point" for="gender1">Male</label>
+                                </div>
+                                <div class="custom-control custom-radio">
+                                    <input type="radio" id="gender2" name="gender" class="custom-control-input" value="f">
+                                    <label class="custom-control-label point" for="gender2">Female</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label>Status : </label>
+                                <select class="form-control point" name="status" id="status1">
+                                    <option selected disabled >Select Status</option>
+                                    <option value="Active">active</option>
+                                    <option value="Inactive">inactive</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="submit" class="btn btn-primary">Add Student</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End add modal -->
+
+    <!-- edit modal -->
+    <!-- ============================================================== -->
+    <div id="editModals">
+        {% for std in std %}
+        <div class="modal fade" id="editModal{{std.id}}" tabindex="-1" aria-labelledby="editModalLabel{{std.id}}"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="editModalLabel{{std.id}}">Update Student Detail</h1>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                    </div>
+                    <div>
+                        <form method="post" action="/update_student/{{std.id}}">
+                            {% csrf_token %}
+                            <div class="modal-body">
+
+                                <div class="mb-3">
+                                    <label for="name1" class="form-label">Name</label>
+                                    <input type="text" class="form-control point" id="name1" name="name" required
+                                        value="{{std.name}}">
+
+                                </div>
+                                <div class="mb-3">
+                                    <label for="age1" class="form-label">Age</label>
+                                    <input type="number" class="form-control point" id="age1" name="age" required
+                                        value="{{std.age}}">
+
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email1" class="form-label">Email</label>
+                                    <input type="email" class="form-control point" id="email1" name="email" required
+                                        value="{{std.email}}">
+
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label class="control-label">Gender</label><br>
+
+                                    <div class="custom-control custom-radio ">
+                                        <input type="radio" id="gender1" class="custom-control-input"   name="gender" value="m" {% if std.gender == "m" %}
+                                        checked {% endif %}>
+                                        <label class="custom-control-label point" for="gender1">Male</label>
+                                    </div>
+                                    
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="gender2" class=" custom-control-input " name="gender" value="f" {% if std.gender == "f" %}
+                                        checked {% endif %}>
+                                        <label class="custom-control-label point" for="gender2">Female</label>
+                                    </div>
+
+
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label for="status1" class="form-label">Status : </label>
+                                    <select class="form-control point" name="status" id="status1">
+                                        <option selected disabled >Select Status</option>
+                                        <option value="Active" {% if std.status == "Active" %} selected {% endif %}>active
+                                        </option>
+                                        <option value="Inactive" {% if std.status == "Inactive" %} selected {% endif %}>
+                                            inactive</option>
+                                    </select>
+
+                                </div>
+
+                                
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="submit" class="btn btn-primary">Update Student</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!-- ============================================================== -->
+    <!-- End edit modal -->
+    <!-- ============================================================== -->
+    
+
+
+    <!-- End Modal -->
+    <!-- ============================================================== -->
+
+{% endblock modal %}
